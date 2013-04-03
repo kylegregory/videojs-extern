@@ -6,29 +6,25 @@ This isn't really a plugin you have to register. Just by including media.X.js, y
 
 Here is an example with YouTube:
 
-```html
-<video id="vid1" class="video-js vjs-default-skin" preload="auto" width="640" height="264">
-  <source src="http://www.youtube.com/watch?v=ebO5jK5NKXw" type="video/youtube">
-  <p>Video Playback Not Supported</p>
-</video>
-
-<script>
-vid1 = vjs('vid1', { techOrder: ['youtube'] });
-</script>
-```
+	<video id="vid1" class="video-js vjs-default-skin" preload="auto" width="640" height="264">
+	  <source src="http://www.youtube.com/watch?v=ebO5jK5NKXw" type="video/youtube">
+	  <p>Video Playback Not Supported</p>
+	</video>
+	
+	<script>
+	vid1 = vjs('vid1', { techOrder: ['youtube'] });
+	</script>
 
 Here is an example with Vimeo:
 
-```html
-<video id="vid1" class="video-js vjs-default-skin" preload="auto" width="640" height="264">
-  <source src="https://vimeo.com/62596239" type="video/vimeo">
-  <p>Video Playback Not Supported</p>
-</video>
-
-<script>
-vid1 = vjs('vid1', { techOrder: ['vimeo'] });
-</script>
-```
+	<video id="vid1" class="video-js vjs-default-skin" preload="auto" width="640" height="264">
+	  <source src="https://vimeo.com/62596239" type="video/vimeo">
+	  <p>Video Playback Not Supported</p>
+	</video>
+	
+	<script>
+	vid1 = vjs('vid1', { techOrder: ['vimeo'] });
+	</script>
 
 If you want to use the YouTube control instead of Video.js, you can set the option ytcontrol to true.
 
