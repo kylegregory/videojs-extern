@@ -1,5 +1,5 @@
 # Video.js - Extern Plugin
-Allow you to play external videos from YouTube or Vimeo.
+Allow you to play external videos from YouTube or Vimeo. More to come, let me know which one you need.
 
 ## How does it work?
 This isn't really a plugin you have to register. Just by including media.X.js, you can use this by adding a new source with type="video/X"
@@ -29,3 +29,6 @@ Here is an example with Vimeo:
 If you want to use the YouTube control instead of Video.js, you can set the option ytcontrol to true.
 
 You cannot use the Video.js control with Vimeo. They do not allow it.
+
+
+**Special thank you to John Hurliman for the original code on the old Video.js**
