@@ -30,5 +30,5 @@ If you want to use the YouTube control instead of Video.js, you can set the opti
 
 You cannot use the Video.js control with Vimeo. They do not allow it.
 
-
-**Special thank you to John Hurliman for the original code on the old Video.js**
+##Special Thank You
+Thanks to John Hurliman for the original code on the old Video.js
