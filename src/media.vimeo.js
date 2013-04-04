@@ -201,7 +201,7 @@ vjs.Vimeo.canPlaySource = function(srcObj){
 
 vjs.Vimeo.prototype.features = {
   fullscreen: true,
-  volumeControl: true,
+  volumeControl: true
 };
 
 vjs.Vimeo.makeQueryString = function(args){
