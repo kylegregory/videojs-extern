@@ -9,28 +9,20 @@ Here is an example with YouTube:
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
 	<script src="vjs.extern.js"></script>
-	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
+	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{ "techOrder": ["youtube", "html5", "flash"] }'>
 	  <source src="http://www.youtube.com/watch?v=ebO5jK5NKXw" type="video/youtube">
 	  <p>Video Playback Not Supported</p>
 	</video>
-	
-	<script>
-	vid1 = vjs('vid1', { techOrder: ['youtube', 'html5', 'flash'] });
-	</script>
 
 Here is an example with Vimeo:
 
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
 	<script src="vjs.extern.js"></script>
-	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
+	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{ "techOrder": ["vimeo", "html5", "flash"] }'>
 	  <source src="https://vimeo.com/62596239" type="video/vimeo">
 	  <p>Video Playback Not Supported</p>
 	</video>
-	
-	<script>
-	vid1 = vjs('vid1', { techOrder: ['vimeo', 'html5', 'flash'] });
-	</script>
 
 If you want to use the YouTube control instead of Video.js, you can set the option ytcontrol to true.
 
