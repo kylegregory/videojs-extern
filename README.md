@@ -9,7 +9,7 @@ Here is an example with YouTube:
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
 	<script src="vjs.extern.js"></script>
-	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264">
+	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
 	  <source src="http://www.youtube.com/watch?v=ebO5jK5NKXw" type="video/youtube">
 	  <p>Video Playback Not Supported</p>
 	</video>
@@ -23,7 +23,7 @@ Here is an example with Vimeo:
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
 	<script src="vjs.extern.js"></script>
-	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264">
+	<video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
 	  <source src="https://vimeo.com/62596239" type="video/vimeo">
 	  <p>Video Playback Not Supported</p>
 	</video>
